@@ -1,25 +1,27 @@
-## A library that can convert text, numbers and symbols to morse code and vice versa
+## A library that can convert text, numbers and symbols to amongus code and vice versa
 *The code is super beginner friendly it's simple to understand and implement.*
 
-##  [![python 3.8](https://img.shields.io/badge/Python-3.8.1-brightred?style=flat-square)](https://www.python.org/) ![ask me why](https://img.shields.io/badge/Morse3-v2.9-red?style=flat-square)
+##  [![python 3](https://img.shields.io/badge/Python-3-brightred?style=flat-square)](https://www.python.org/)
 
 
-Installation
+### Installation
 
-`pip install morse3`
+copy and paste amongus.py inside your project
 
-Usage
+### Usage
 
-\>\>\> `from morse3 import Morse as m`
-
-
-\>\>\> `m("a a23").stringToMorse()`
-
-\>\>\> .- &nbsp;  .- ..--- ...--
+\>\>\> `from amongus import Amongus as sus`
 
 
-\>\>\> `m("-.-. .- -. -.. -.--").morseToString()`
+\>\>\> `sus("Hello world").ToAmongus()`
+
+\>\>\>  &nbsp;  amongus-amongus-amongus-amongus amongus amongus-sus-amongus-amongus amongus-sus-amongus-amongus sus-sus-sus sussy-baka amongus-sus-sus sus-sus-sus amongus-sus-amongus amongus-sus-amongus-amongus sus-amongus-amongus
+
+
+\>\>\> `sus("sus-amongus-sus-amongus amongus-sus sus-amongus sus-amongus-amongus sus-amongus-sus-sus ").ToString()`
 
 \>\>\> candy
 
-
+## To Do:
+<p>Add numbers support [ ]</p>
+Add symbols support [ ]
