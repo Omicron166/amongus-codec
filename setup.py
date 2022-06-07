@@ -4,15 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name='morse3',  
-    version='2.9',
-    author="Aayush Pokharel",
-    author_email="aayushpokharel36@gmail.com",
-    description="A morse code encryption / decryption library",
+    name='amongus_codec',
+    version='1',
+    author="Omicron166",
+    author_email="omicron166@protonmail.com",
+    description="An amongus code encryption / decryption library",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Aayush9029/encodeDecode",
-    py_modules=["morse3"],
+    url="https://github.com/Omicron166/amongus-codec",
     package_dir={'':'src'},
     classifiers=[
         "Programming Language :: Python :: 3",

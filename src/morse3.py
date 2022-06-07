@@ -49,7 +49,7 @@ class Amongus:
         }
         self.words = words
 
-    def stringToMorse(self):
+    def ToAmongus(self):
         '''
         str -> str
         returns amongus code variant of the string
@@ -70,7 +70,7 @@ class Amongus:
                 return KeyError
         return output
 
-    def morseToString(self):
+    def ToString(self):
         '''
         str -> str
         returns the decoded string as amongus code
