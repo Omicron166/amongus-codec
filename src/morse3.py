@@ -1,75 +1,64 @@
 '''
 made by:  Aayush 9029
 created at: April 3, 2020
+turned sus by: Omicron166
 
-A module that converts string to morse code and vice versa
+A module that converts string to amongus code and vice versa
 
 '''
-class Morse:
+class Amongus:
     def __init__(self, words):
         '''
-        Takes in one parameter either morse code or letter / number / symbols and assings it to self.words
+        Takes in one parameter either amongus code or letter and assings it to self.words
         '''
         self.codes = {
-        "0": "-----",
-        "1": ".----",
-        "2": "..---",
-        "3": "...--",
-        "4": "....-",
-        "5": ".....",
-        "6": "-....",
-        "7": "--...",
-        "8": "---..",
-        "9": "----.",
-        "a": ".-",
-        "b": "-...",
-        "c": "-.-.",
-        "d": "-..",
-        "e": ".",
-        "f": "..-.",
-        "g": "--.",
-        "h": "....",
-        "i": "..",
-        "j": ".---",
-        "k": "-.-",
-        "l": ".-..",
-        "m": "--",
-        "n": "-.",
-        "o": "---",
-        "p": ".--.",
-        "q": "--.-",
-        "r": ".-.",
-        "s": "...",
-        "t": "-",
-        "u": "..-",
-        "v": "...-",
-        "w": ".--",
-        "x": "-..-",
-        "y": "-.--",
-        "z": "--..",
-        ".": ".-.-.-",
-        ",": "--..--",
-        "?": "..--..",
-        "!": "-.-.--",
-        "-": "-....-",
-        "/": "-..-.",
-        "@": ".--.-.",
-        "(": "-.--.",
-        ")": "-.--.-",
-        " ": " "
+            # . -> amongus
+            # - -> sus
+            # ' ' -> sussy-baka
+            "a": "amongus-sus",
+            "b": "sus-amongus-amongus-amongus",
+            "c": "sus-amongus-sus-amongus",
+            "d": "sus-amongus-amongus",
+            "e": "amongus",
+            "f": "amongus-amongus-sus-amongus",
+            "g": "sus-sus-amongus",
+            "h": "amongus-amongus-amongus-amongus",
+            "i": "amongus-amongus",
+            "j": "amongus-sus-sus-sus",
+            "k": "sus-amongus-sus",
+            "l": "amongus-sus-amongus-amongus",
+            "m": "sus-sus",
+            "n": "sus-amongus",
+            "o": "sus-sus-sus",
+            "p": "amongus-sus-sus-amongus",
+            "q": "sus-sus-amongus-sus",
+            "r": "amongus-sus-amongus",
+            "s": "amongus-amongus-amongus",
+            "t": "sus",
+            "u": "amongus-amongus-sus",
+            "v": "amongus-amongus-amongus-sus",
+            "w": "amongus-sus-sus",
+            "x": "sus-amongus-amongus-sus",
+            "y": "sus-amongus-sus-sus",
+            "z": "sus-sus-amongus-amongus",
+            ".": "amongus-sus-amongus-sus-amongus-sus",
+            ",": "sus-sus-amongus-amongus-sus-sus",
+            "?": "amongus-amongus-sus-sus-amongus-amongus",
+            "!": "sus-amongus-sus-amongus-sus-sus",
+            " ": "sussy-baka"
         }
         self.words = words
 
     def stringToMorse(self):
         '''
         str -> str
-        returns morse code variant of the string
+        returns amongus code variant of the string
 
         i am butterfly
-        >>> ..  .- --  -... ..- - - . .-. ..-. .-.. -.--
+        >>> amongus-amongus sussy-baka amongus-sus sus-sus sussy-baka sus-amongus-amongus-amongus amongus-amongus-sus sus sus amongus amongus-sus-amongus amongus-amongus-sus-amongus amongus-sus-amongus-amongus sus-amongus-sus-sus
 
         Cc Aa
-        >>> -.-. -.-.  .- .-
+        >>> sus-amongus-sus-amongus sus-amongus-sus-amongus sussy-baka amongus-sus amongus-sus
         '''
 
         letters = list(self.words)
@@ -84,13 +73,13 @@ class Morse:
     def morseToString(self):
         '''
         str -> str
-        returns the decoded string as morse code
+        returns the decoded string as amongus code
 
-        .- .--. .--. .-.. . 
+        amongus-sus amongus-sus-sus-amongus amongus-sus-sus-amongus amongus-sus-amongus-amongus amongus
         >>> apple
 
-        ..  .- --  .-  -.. .. ... -.-. ---  -.. .- -. -.-. . .-.  ..--- ...--
-        >>> i am a disco dancer 23
+        amongus-amongus sussy-baka amongus-sus sus-sus sussy-baka amongus-sus sussy-baka sus-amongus-amongus amongus-amongus amongus-amongus-amongus sus-amongus-sus-amongus sus-sus-sus sussy-baka sus-amongus-amongus amongus-sus sus-amongus sus-amongus-sus-amongus amongus amongus-sus-amongus
+        >>> i am a disco dancer
         '''
         
         words =  self.words.split("  ")
