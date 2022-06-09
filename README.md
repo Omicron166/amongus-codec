@@ -21,7 +21,3 @@ copy and paste amongus.py inside your project
 \>\>\> `sus("sus-amongus-sus-amongus amongus-sus sus-amongus sus-amongus-amongus sus-amongus-sus-sus ").ToString()`
 
 \>\>\> candy
-
-## To Do:
-<p>Add numbers support [ ]</p>
-Add symbols support [ ]
