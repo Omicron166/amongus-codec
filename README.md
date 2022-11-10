@@ -10,14 +10,14 @@ copy and paste amongus.py inside your project
 
 ### Usage
 
-\>\>\> `from amongus import Amongus as sus`
+\>\>\> `from amongus import encode, decode`
 
 
-\>\>\> `sus("Hello world").ToAmongus()`
+\>\>\> `encode("Hello world")`
 
 \>\>\>  &nbsp;  amongus-amongus-amongus-amongus amongus amongus-sus-amongus-amongus amongus-sus-amongus-amongus sus-sus-sus sussy-baka amongus-sus-sus sus-sus-sus amongus-sus-amongus amongus-sus-amongus-amongus sus-amongus-amongus
 
 
-\>\>\> `sus("sus-amongus-sus-amongus amongus-sus sus-amongus sus-amongus-amongus sus-amongus-sus-sus ").ToString()`
+\>\>\> `decode("sus-amongus-sus-amongus amongus-sus sus-amongus sus-amongus-amongus sus-amongus-sus-sus ")`
 
 \>\>\> candy
